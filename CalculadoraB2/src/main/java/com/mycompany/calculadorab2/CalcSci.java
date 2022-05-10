@@ -455,7 +455,8 @@ else
 String valor=Visor.getText()+btn1.getText();
 Visor.setText(valor);
 addNum("1");
-}       
+}
+btnvir.setEnabled(true);    
     }//GEN-LAST:event_btn1ActionPerformed
 
     private void btn2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn2ActionPerformed
@@ -470,6 +471,7 @@ String valor=Visor.getText()+btn2.getText();
 Visor.setText(valor); 
 addNum("2");
 }
+btnvir.setEnabled(true);
     }//GEN-LAST:event_btn2ActionPerformed
 
     private void btn3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn3ActionPerformed
@@ -483,7 +485,8 @@ else
 String valor=Visor.getText()+btn3.getText();
 Visor.setText(valor);
 addNum("3");
-}   
+}
+btnvir.setEnabled(true);    
     }//GEN-LAST:event_btn3ActionPerformed
 
     private void btn6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn6ActionPerformed
@@ -498,6 +501,7 @@ String valor=Visor.getText()+btn6.getText();
 Visor.setText(valor);   
 addNum("6");
 }
+btnvir.setEnabled(true);
     }//GEN-LAST:event_btn6ActionPerformed
 
     private void btn4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn4ActionPerformed
@@ -512,6 +516,7 @@ String valor=Visor.getText()+btn4.getText();
 Visor.setText(valor);   
 addNum("4");
 }
+btnvir.setEnabled(true);
     }//GEN-LAST:event_btn4ActionPerformed
 
     private void btn5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn5ActionPerformed
@@ -526,6 +531,7 @@ String valor=Visor.getText()+btn5.getText();
 Visor.setText(valor);   
 addNum("5");
 }
+btnvir.setEnabled(true);
     }//GEN-LAST:event_btn5ActionPerformed
 
     private void btn9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn9ActionPerformed
@@ -540,6 +546,7 @@ String valor=Visor.getText()+btn9.getText();
 Visor.setText(valor);   
 addNum("9");
 }
+btnvir.setEnabled(true);
     }//GEN-LAST:event_btn9ActionPerformed
 
     private void btn7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn7ActionPerformed
@@ -554,6 +561,7 @@ String valor=Visor.getText()+btn7.getText();
 Visor.setText(valor);   
 addNum("7");
 }
+btnvir.setEnabled(true);
     }//GEN-LAST:event_btn7ActionPerformed
 
     private void btn8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn8ActionPerformed
@@ -568,6 +576,7 @@ String valor=Visor.getText()+btn8.getText();
 Visor.setText(valor); 
 addNum("8");
 }
+btnvir.setEnabled(true);
     }//GEN-LAST:event_btn8ActionPerformed
 
     private void btncActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btncActionPerformed
@@ -599,7 +608,7 @@ String backSpace=null;
         Visor.setText("0");}
     if(VisorOP.getText().isEmpty()){
         VisorOP.setText("0");}
-    
+    btnvir.setEnabled(true);
     
 
     }//GEN-LAST:event_btnbackActionPerformed
@@ -648,6 +657,7 @@ Visor.setText(String.valueOf(vlr));
 String valor=Visor.getText()+btnvir.getText();
 Visor.setText(valor);
 addNum(".");
+btnvir.setEnabled(false);
     }//GEN-LAST:event_btnvirActionPerformed
 
     private void btnmenosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnmenosActionPerformed
@@ -736,6 +746,7 @@ else if(operacao=="x^y")
     Visor.setText(ans);
  }
 addNum("=");
+btnvir.setEnabled(true);
 
 
 

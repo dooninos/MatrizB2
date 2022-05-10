@@ -4,6 +4,27 @@
   <NonVisualComponents>
     <Component class="javax.swing.ButtonGroup" name="buttonGroup1">
     </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="jTable1">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="4" rowCount="4">
+                <Column editable="true" title="Title 1" type="java.lang.Object"/>
+                <Column editable="true" title="Title 2" type="java.lang.Object"/>
+                <Column editable="true" title="Title 3" type="java.lang.Object"/>
+                <Column editable="true" title="Title 4" type="java.lang.Object"/>
+              </Table>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
     <Menu class="javax.swing.JMenuBar" name="jMenuBar1">
       <SubComponents>
         <Menu class="javax.swing.JMenu" name="jMenu1">
@@ -76,15 +97,15 @@
                           <Component id="Visor" alignment="0" max="32767" attributes="0"/>
                           <Group type="102" alignment="0" attributes="0">
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="btnB" min="-2" pref="45" max="-2" attributes="0"/>
-                                  <Component id="btnA" alignment="0" min="-2" pref="45" max="-2" attributes="0"/>
-                                  <Component id="btnC" alignment="0" min="-2" pref="45" max="-2" attributes="0"/>
+                                  <Component id="btnB" min="-2" pref="47" max="-2" attributes="0"/>
+                                  <Component id="btnA" alignment="0" min="-2" pref="47" max="-2" attributes="0"/>
+                                  <Component id="btnC" alignment="0" min="-2" pref="47" max="-2" attributes="0"/>
                               </Group>
                               <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="btnE" min="-2" pref="45" max="-2" attributes="0"/>
-                                  <Component id="btnF" min="-2" pref="45" max="-2" attributes="0"/>
-                                  <Component id="btnD" min="-2" pref="45" max="-2" attributes="0"/>
+                                  <Component id="btnE" min="-2" pref="47" max="-2" attributes="0"/>
+                                  <Component id="btnF" min="-2" pref="47" max="-2" attributes="0"/>
+                                  <Component id="btnD" min="-2" pref="47" max="-2" attributes="0"/>
                               </Group>
                               <EmptySpace type="unrelated" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="1" attributes="0">
@@ -125,37 +146,31 @@
                               </Group>
                           </Group>
                       </Group>
-                      <EmptySpace pref="17" max="32767" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace pref="19" max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="VisorDec" min="-2" pref="330" max="-2" attributes="0"/>
+                                  <Component id="VisorBin" min="-2" pref="330" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace pref="58" max="32767" attributes="0"/>
+                          </Group>
                           <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace pref="167" max="32767" attributes="0"/>
                               <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
                               <EmptySpace min="-2" pref="223" max="-2" attributes="0"/>
                           </Group>
-                          <Group type="102" attributes="0">
-                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Group type="102" attributes="0">
-                                      <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                      <Component id="VisorHex" min="-2" pref="330" max="-2" attributes="0"/>
-                                  </Group>
-                                  <Group type="102" attributes="0">
-                                      <Group type="103" groupAlignment="1" attributes="0">
-                                          <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
-                                          <Group type="103" alignment="1" groupAlignment="0" attributes="0">
-                                              <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
-                                              <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
-                                          </Group>
-                                      </Group>
-                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                      <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="VisorDec" min="-2" pref="330" max="-2" attributes="0"/>
-                                          <Component id="VisorOct" min="-2" pref="330" max="-2" attributes="0"/>
-                                          <Component id="VisorBin" min="-2" pref="330" max="-2" attributes="0"/>
-                                      </Group>
-                                  </Group>
-                              </Group>
-                              <EmptySpace pref="58" max="32767" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="VisorHex" min="-2" pref="330" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
                           </Group>
                       </Group>
                   </Group>
@@ -168,8 +183,6 @@
                       <Component id="chkbin" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="chkhex" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="chkoct" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="32767" attributes="0"/>
                   </Group>
               </Group>
@@ -185,7 +198,6 @@
                   <Component id="chkdec" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="chkbin" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="chkhex" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="chkoct" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
@@ -208,26 +220,21 @@
                       </Group>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="VisorOct" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
-                          <Component id="jLabel5" alignment="3" min="-2" pref="26" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="VisorHex" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
                           <Component id="jLabel4" alignment="3" min="-2" pref="26" max="-2" attributes="0"/>
                       </Group>
                   </Group>
                   <Group type="103" alignment="0" groupAlignment="3" attributes="0">
-                      <Component id="btnA" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
-                      <Component id="btnD" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+                      <Component id="btnA" alignment="3" min="-2" pref="47" max="-2" attributes="0"/>
+                      <Component id="btnD" alignment="3" min="-2" pref="47" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="3" attributes="0">
-                                  <Component id="btnB" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
-                                  <Component id="btnE" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+                                  <Component id="btnB" alignment="3" min="-2" pref="47" max="-2" attributes="0"/>
+                                  <Component id="btnE" alignment="3" min="-2" pref="47" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
@@ -260,8 +267,8 @@
                               </Group>
                           </Group>
                           <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="btnC" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
-                              <Component id="btnF" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+                              <Component id="btnC" alignment="3" min="-2" pref="47" max="-2" attributes="0"/>
+                              <Component id="btnF" alignment="3" min="-2" pref="47" max="-2" attributes="0"/>
                           </Group>
                           <Component id="btnres" alignment="0" max="32767" attributes="0"/>
                       </Group>
@@ -276,6 +283,7 @@
     <Component class="javax.swing.JTextField" name="Visor">
       <Properties>
         <Property name="editable" type="boolean" value="false"/>
+        <Property name="horizontalAlignment" type="int" value="4"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="btnA">
@@ -503,11 +511,6 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="VisorBinActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JTextField" name="VisorOct">
-      <Properties>
-        <Property name="editable" type="boolean" value="false"/>
-      </Properties>
-    </Component>
     <Component class="javax.swing.JTextField" name="VisorHex">
       <Properties>
         <Property name="editable" type="boolean" value="false"/>
@@ -535,14 +538,6 @@
           <Font name="Segoe UI" size="14" style="1"/>
         </Property>
         <Property name="text" type="java.lang.String" value="HEX"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="jLabel5">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Segoe UI" size="14" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="OCT"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel6">
@@ -596,17 +591,6 @@
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="chkhexActionPerformed"/>
-      </Events>
-    </Component>
-    <Component class="javax.swing.JRadioButton" name="chkoct">
-      <Properties>
-        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
-          <ComponentRef name="buttonGroup1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="OCT"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="chkoctActionPerformed"/>
       </Events>
     </Component>
   </SubComponents>
