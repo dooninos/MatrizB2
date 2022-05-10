@@ -565,6 +565,9 @@ Visor.setText(valor);
 
     private void btncActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btncActionPerformed
 Visor.setText(null);
+VisorDec.setText(null);
+VisorBin.setText(null);
+VisorHex.setText(null);
     }//GEN-LAST:event_btncActionPerformed
 
     private void VisorBinActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_VisorBinActionPerformed
@@ -588,7 +591,7 @@ VisorHex.setText(Integer.toHexString(dec));
 if (chkhex.isSelected()){
 int hex=(Integer.parseInt(Visor.getText(),16));
 VisorBin.setText(Integer.toBinaryString(hex));
-//sorDec.setText(Integer.parseInt(hex,16));
+//isorDec.setText(Integer.toString(VisorBin.getText(),2));
 
 
 }
@@ -612,6 +615,9 @@ btnD.setEnabled(true);
 btnE.setEnabled(true);
 btnF.setEnabled(true);
 Visor.setText(null);
+VisorDec.setText(null);
+VisorBin.setText(null);
+VisorHex.setText(null);
 VisorHex.setEnabled(false);
 VisorDec.setEnabled(true);
 VisorBin.setEnabled(true);
@@ -633,6 +639,9 @@ btnD.setEnabled(false);
 btnE.setEnabled(false);
 btnF.setEnabled(false);
 Visor.setText(null);
+VisorDec.setText(null);
+VisorBin.setText(null);
+VisorHex.setText(null);
 VisorHex.setEnabled(true);
 VisorDec.setEnabled(true);
 VisorBin.setEnabled(false);
@@ -654,6 +663,9 @@ btnD.setEnabled(false);
 btnE.setEnabled(false);
 btnF.setEnabled(false);
 Visor.setText(null);
+VisorDec.setText(null);
+VisorBin.setText(null);
+VisorHex.setText(null);
 VisorHex.setEnabled(true);
 VisorDec.setEnabled(false);
 VisorBin.setEnabled(true);
