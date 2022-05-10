@@ -581,19 +581,17 @@ int a = Integer.parseInt(Visor.getText());
 VisorHex.setText(Integer.toString(a,16).toUpperCase());
 VisorBin.setText(Integer.toString(a,2));
 }
-
+//Bin para outros
 if (chkbin.isSelected()){
-int dec=(Integer.parseInt(Visor.getText(),2));
-VisorDec.setText(Integer.toString(dec));
-VisorHex.setText(Integer.toHexString(dec));   
+int a=(Integer.parseInt(Visor.getText(),2));
+VisorDec.setText(Integer.toString(a));
+VisorHex.setText(Integer.toHexString(a).toUpperCase());   
  }
-
+//Hex para outros
 if (chkhex.isSelected()){
-int hex=(Integer.parseInt(Visor.getText(),16));
-VisorBin.setText(Integer.toBinaryString(hex));
-//isorDec.setText(Integer.toString(VisorBin.getText(),2));
-
-
+int a=(Integer.parseInt(Visor.getText(),16));
+VisorBin.setText(Integer.toBinaryString(a));
+VisorDec.setText(Integer.toString(a));
 }
         
 
