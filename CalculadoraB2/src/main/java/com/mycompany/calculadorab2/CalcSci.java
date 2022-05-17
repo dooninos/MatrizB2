@@ -5,6 +5,7 @@
 package com.mycompany.calculadorab2;
 
 import javax.swing.JOptionPane;
+//import javax.swing.ImageIcon;
 
 /**
  *
@@ -777,7 +778,9 @@ this.dispose();
     }//GEN-LAST:event_jMenuItem1ActionPerformed
 
     private void jMenuItem2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem2ActionPerformed
-JOptionPane.showMessageDialog(this, "Calculadora B2 - Cientifica\nPor Willian Ribeiro Ferreira");
+javax.swing.ImageIcon icon=new javax.swing.ImageIcon("src/anha.png");
+        JOptionPane.showMessageDialog(this," Calculadora B2 - Cientifica\n Por Willian Ribeiro Ferreira\n will.rferreira@gmail.com\n Ver:1.0", "CalcB2", JOptionPane.PLAIN_MESSAGE, icon);
+   
     }//GEN-LAST:event_jMenuItem2ActionPerformed
 
     /**
