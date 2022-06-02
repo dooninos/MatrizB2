@@ -160,6 +160,7 @@ DefaultListModel lstValores;
         );
 
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
     private void botgerActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botgerActionPerformed
  btnbuscar.setEnabled(true);
